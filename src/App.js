@@ -17,8 +17,8 @@ return (
        <Tab value="Customers" label="Customers"/>
      </Tabs>
   </AppBar>
-  {value == 'Trainings' && <Traininglist/>}
-  {value == 'Customers' && <Customerlist/>} 
+  {value === 'Trainings' && <Traininglist/>}
+  {value === 'Customers' && <Customerlist/>} 
 </div>
 
   );
